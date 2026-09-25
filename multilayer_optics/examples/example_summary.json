@@ -1,0 +1,31 @@
+{
+  "description": "Five synthetic dispersive layers, absorbing H layers, real dispersive semi-infinite substrate",
+  "angle_deg": 60,
+  "points": 501,
+  "all_polarizations_valid": true,
+  "diagnostic_count": 0,
+  "Rs_range": [
+    0.2279531747278781,
+    0.8423955685086173
+  ],
+  "Rp_range": [
+    0.00016428772397648732,
+    0.24936987801946656
+  ],
+  "As_range": [
+    0.022119103318856775,
+    0.13171712765814114
+  ],
+  "Ap_range": [
+    0.06347212307261518,
+    0.12907251356236726
+  ],
+  "grid_check": {
+    "converged": true,
+    "rounds": 5,
+    "final_points": 3201,
+    "normalized_midpoint_error": 0.25286496399576386,
+    "reason": "midpoint_criterion",
+    "scope": "midpoint criterion only; no guarantee of detecting every narrow resonance"
+  }
+}

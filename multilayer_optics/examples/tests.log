@@ -1,0 +1,49 @@
+test_airy_absorbing_layer_amplitudes (test_core.CorePhysicsTests.test_airy_absorbing_layer_amplitudes) ... ok
+test_angle_units (test_core.CorePhysicsTests.test_angle_units) ... ok
+test_brewster_angle_masks (test_core.CorePhysicsTests.test_brewster_angle_masks) ... ok
+test_critical_finite_layer_against_explicit_limit (test_core.CorePhysicsTests.test_critical_finite_layer_against_explicit_limit) ... ok
+test_critical_substrate_exact_and_neighboring_angles (test_core.CorePhysicsTests.test_critical_substrate_exact_and_neighboring_angles) ... ok
+test_ellipsometry_zero_component_masks (test_core.CorePhysicsTests.test_ellipsometry_zero_component_masks) ... ok
+test_enz_normal_and_unsupported_oblique (test_core.CorePhysicsTests.test_enz_normal_and_unsupported_oblique) ... ok
+test_evanescent_substrate_with_absorbing_coating (test_core.CorePhysicsTests.test_evanescent_substrate_with_absorbing_coating) ... ok
+test_fresnel_no_layers (test_core.CorePhysicsTests.test_fresnel_no_layers) ... ok
+test_independent_volume_absorption_integral_both_polarizations (test_core.CorePhysicsTests.test_independent_volume_absorption_integral_both_polarizations) ... ok
+test_input_validation (test_core.CorePhysicsTests.test_input_validation) ... ok
+test_large_layer_count (test_core.CorePhysicsTests.test_large_layer_count) ... ok
+test_lossless_evanescent_internal_layer (test_core.CorePhysicsTests.test_lossless_evanescent_internal_layer) ... ok
+test_near_grazing_identical_media (test_core.CorePhysicsTests.test_near_grazing_identical_media) ... ok
+test_normal_incidence_basis_and_time_convention (test_core.CorePhysicsTests.test_normal_incidence_basis_and_time_convention) ... ok
+test_opaque_first_layer_and_log_transmission (test_core.CorePhysicsTests.test_opaque_first_layer_and_log_transmission) ... ok
+test_prompt_numerical_benchmark (test_core.CorePhysicsTests.test_prompt_numerical_benchmark) ... ok
+test_quarter_wave_antireflection_and_undefined_ellipsometry (test_core.CorePhysicsTests.test_quarter_wave_antireflection_and_undefined_ellipsometry) ... ok
+test_random_matrix_comparison_complex_amplitudes (test_core.CorePhysicsTests.test_random_matrix_comparison_complex_amplitudes) ... ok
+test_thick_evanescent_layer_tunneling_underflow (test_core.CorePhysicsTests.test_thick_evanescent_layer_tunneling_underflow) ... ok
+test_total_internal_reflection_and_lossless_coating (test_core.CorePhysicsTests.test_total_internal_reflection_and_lossless_coating) ... ok
+test_zero_thickness_and_splitting_invariance (test_core.CorePhysicsTests.test_zero_thickness_and_splitting_invariance) ... ok
+test_constant_callable_and_explicit_time_conversion (test_materials.MaterialTests.test_constant_callable_and_explicit_time_conversion) ... ok
+test_extrapolation_including_one_ulp_is_rejected (test_materials.MaterialTests.test_extrapolation_including_one_ulp_is_rejected) ... ok
+test_interpolation_is_in_original_wavelength_coordinate (test_materials.MaterialTests.test_interpolation_is_in_original_wavelength_coordinate) ... ok
+test_source_convention_and_mutable_input_is_copied (test_materials.MaterialTests.test_source_convention_and_mutable_input_is_copied) ... ok
+test_table_validation (test_materials.MaterialTests.test_table_validation) ... ok
+test_transparent_environment_is_strict (test_materials.MaterialTests.test_transparent_environment_is_strict) ... ok
+test_all_units_round_trip_preserve_shape (test_materials.SpectralUnitsTests.test_all_units_round_trip_preserve_shape) ... ok
+test_grid_checks_original_coordinate_and_endpoints (test_materials.SpectralUnitsTests.test_grid_checks_original_coordinate_and_endpoints) ... ok
+test_invalid_coordinates_and_units (test_materials.SpectralUnitsTests.test_invalid_coordinates_and_units) ... ok
+test_lengths_validate (test_materials.SpectralUnitsTests.test_lengths_validate) ... ok
+test_nm_cm_phase_is_dimensionless (test_materials.SpectralUnitsTests.test_nm_cm_phase_is_dimensionless) ... ok
+test_wavenumber_semantics_are_explicit (test_materials.SpectralUnitsTests.test_wavenumber_semantics_are_explicit) ... ok
+test_overflow_returns_diagnostics (test_numerical_limits.NumericalLimitTests.test_overflow_returns_diagnostics) ... ok
+test_invalid_inputs (test_spectrum.SpectrumTests.test_invalid_inputs) ... ok
+test_json_undefined_and_physical_zero (test_spectrum.SpectrumTests.test_json_undefined_and_physical_zero) ... ok
+test_opaque_export_preserves_log (test_spectrum.SpectrumTests.test_opaque_export_preserves_log) ... ok
+test_refinement_constant_and_budget (test_spectrum.SpectrumTests.test_refinement_constant_and_budget) ... ok
+test_refinement_nontrivial (test_spectrum.SpectrumTests.test_refinement_nontrivial) ... ok
+test_stream_chunk_and_dispersion (test_spectrum.SpectrumTests.test_stream_chunk_and_dispersion) ... ok
+test_time_convention_export (test_spectrum.SpectrumTests.test_time_convention_export) ... ok
+test_units_equivalence (test_spectrum.SpectrumTests.test_units_equivalence) ... ok
+test_unwrap_segments (test_spectrum.SpectrumTests.test_unwrap_segments) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.095s
+
+OK

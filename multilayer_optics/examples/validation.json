@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-09-25T08:51:25.312232+00:00",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "tests": {
+    "run": 44,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "matrix_comparison": {
+    "stacks": 60,
+    "polarizations_per_stack": 2,
+    "seed": 20260925,
+    "max_complex_amplitude_absolute_residual": 1.1866928732135989e-15
+  },
+  "independent_absorption_integral": {
+    "s": {
+      "A_from_balance": 0.40166211971488724,
+      "A_from_volume_integral": 0.40166211971488697,
+      "absolute_residual": 2.7755575615628914e-16
+    },
+    "p": {
+      "A_from_balance": 0.5181890107075728,
+      "A_from_volume_integral": 0.5181890107075726,
+      "absolute_residual": 2.220446049250313e-16
+    }
+  },
+  "benchmark": {
+    "Rs": 0.17657148808284046,
+    "Rp": 0.0018019375215850254,
+    "Ts": 0.8234285119171597,
+    "Tp": 0.9981980624784151,
+    "Psi_deg": 5.768479516407728,
+    "Delta_deg": 0.0,
+    "rho": {
+      "re": 0.10102051443364353,
+      "im": 0.0
+    }
+  },
+  "opaque_layer": {
+    "log_T_s": -635376.3766066795,
+    "log_T_p": -635376.1016630186,
+    "Ts": 0.0,
+    "Tp": 0.0
+  }
+}

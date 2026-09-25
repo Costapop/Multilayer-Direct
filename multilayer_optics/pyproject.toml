@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multilayer-optics-reference"
+version = "0.1.0"
+description = "Documented coherent multilayer optics with a lossless semi-infinite substrate"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.7"]
+
+[tool.setuptools]
+packages = ["multilayer_optics", "multilayer_optics.tests"]
+package-dir = {multilayer_optics = "."}
+
+[tool.setuptools.package-data]
+multilayer_optics = ["*.md", "*.csv", "examples/*.json", "examples/*.png", "examples/*.svg", "examples/*.log"]

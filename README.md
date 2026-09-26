@@ -5,18 +5,20 @@
 Для N однородных изотропных немагнитных слоёв вычисляются спектры Rs, Rp, Ts, Tp, поглощение покрытия, комплексные амплитуды, эллипсометрическое отношение rho и углы Psi, Delta при наклонном падении. В слоях допускаются дисперсия и поглощение. Подложка полубесконечная и непоглощающая; её действительный показатель может иметь дисперсию.
 
 
-## Веб-приложение OpticalLab 1.1.0
+## Веб-приложение OpticalLab 1.1.1
+
+В версии **1.1.1** исправлены пересчёт и графики после смены спектрального диапазона: масштаб сбрасывается при готовом результате, единицы сохраняют физический диапазон, устаревшие ответы расчётов игнорируются.
 
 Справочник девяти материалов **SiO₂, MgF₂, TiO₂, Ta₂O₅, HfO₂, Al₂O₃, Al, Ag, Au** с готовыми причинными формулами дисперсии и поглощения. Выбор материала сразу даёт расчёт спектров в подтверждённых УФ, видимом и ИК диапазонах. Коэффициенты, источники, границы и ошибки видны в карточке материала; справочник работает без сети.
 
-- [Скачать релиз v1.1.0](https://github.com/Costapop/Multilayer-Direct/releases/tag/v1.1.0)
-- [Описание релиза и границы применимости](RELEASE_v1.1.0.md)
-- [Исходники приложения и инструкция запуска](OpticalLab-v1.1.0.zip)
+- [Скачать релиз v1.1.1](https://github.com/Costapop/Multilayer-Direct/releases/tag/v1.1.1)
+- [Описание релиза и границы применимости](RELEASE_v1.1.1.md)
+- [Исходники приложения и инструкция запуска](OpticalLab-v1.1.1.zip)
 - [Все формулы и численные коэффициенты](MATERIAL_COEFFICIENTS_RU.md)
 - [Проверка моделей и точность](DIELECTRIC_FITS_RU.md)
-- [Отчёт о 83 тестах и проверке интерфейса](VALIDATION_v1.1.0.md)
+- [Отчёт о 102 тестах и проверке интерфейса](VALIDATION_v1.1.1.md)
 
-Для запуска нужны Node.js 22.13+ и Python 3.12+. Скачайте архив **OpticalLab-v1.1.0.zip** из релиза и распакуйте его. После установки зависимостей выполните `npm run lab`. Приложение локальное; ручной расчёт не требует API-ключа.
+Для запуска нужны Node.js 22.13+ и Python 3.12+. Скачайте архив **OpticalLab-v1.1.1.zip** из релиза и распакуйте его. После установки зависимостей выполните `npm run lab`. Приложение локальное; ручной расчёт не требует API-ключа.
 
 Исходное ядро и документация предыдущего релиза сохранены ниже.
 
@@ -49,4 +51,4 @@ python multilayer_optics/example.py
 
 ![Модельный спектр многослойного покрытия](multilayer_optics/examples/spectrum.png)
 
-Предыдущий релиз ядра: [Direct Problem](https://github.com/Costapop/Multilayer-Direct/releases/tag/Direct-Problem), тег `Direct-Problem`. Предыдущий релиз приложения: [OpticalLab 1.0.0](https://github.com/Costapop/Multilayer-Direct/releases/tag/v1.0.0). Текущий: [OpticalLab 1.1.0](https://github.com/Costapop/Multilayer-Direct/releases/tag/v1.1.0), тег `v1.1.0`.
+Предыдущий релиз ядра: [Direct Problem](https://github.com/Costapop/Multilayer-Direct/releases/tag/Direct-Problem), тег `Direct-Problem`. Предыдущий релиз приложения: [OpticalLab 1.0.0](https://github.com/Costapop/Multilayer-Direct/releases/tag/v1.0.0). Текущий: [OpticalLab 1.1.1](https://github.com/Costapop/Multilayer-Direct/releases/tag/v1.1.1), тег `v1.1.1`.
